@@ -1,22 +1,224 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# General
+# -------
+.*
+!/.gitignore
+!/.gitattributes
+
+
+# Operating Systems
+# ----------------
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+## MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+
+# Python Development
+# -----------------
+
+## Byte-compiled / optimized / DLL files
+__pycache__/
+**pycache**/
+*.py[cod]
+*$py.class
+
+## C extensions
+*.so
+
+## Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pdm-build/
+
+## PyInstaller
+*.manifest
+*.spec
+
+## Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+## Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+## Translations
+*.mo
+*.pot
+
+## Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+## Flask
+instance/
+.webassets-cache
+
+## Scrapy
+.scrapy
+
+## Sphinx documentation
+docs/_build/
+
+## PyBuilder
+.pybuilder/
+target/
+
+## Jupyter & IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+## Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+## Package Management
+# pyenv
+#.python-version
+
+# pipenv
+#Pipfile.lock
+
+# UV
+#uv.lock
+
+# poetry
+#poetry.lock
+
+# pdm
+#pdm.lock
+.pdm.toml
+.pdm-python
+
+## PEP 582
+__pypackages__/
+**pypackages**/
+
+## Other Python Tools
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+## Type Checking & Analysis
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+## Debug
+cython_debug/
+
+## IDE Specific
+# PyCharm / JetBrains
+#.idea/
+
+## Package Publishing
+.pypirc
+
+
+# Obsidian
+# --------
+!.obsidian
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/canvas.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/core-plugins-migration.json
+!.obsidian/daily-notes.json
+!.obsidian/graph.json
+!.obsidian/hotkeys.json
+!.obsidian/templates.json
+!.obsidian/types.json
+
+
+# Logs
+# ----
+*.log
+!important.log
