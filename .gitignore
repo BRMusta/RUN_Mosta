@@ -221,6 +221,8 @@ cython_debug/
 !.obsidian/hotkeys.json
 !.obsidian/templates.json
 !.obsidian/types.json
+# Ignore Smart Environment folder
+.smart-env
 
 
 # Logs
