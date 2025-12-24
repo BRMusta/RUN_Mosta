@@ -180,7 +180,8 @@ instance/
 docs/_build/
 target/
 
-# Jupyter
+# Marimo / Jupyter
+__marimo__/
 .ipynb_checkpoints
 profile_default/
 ipython_config.py
