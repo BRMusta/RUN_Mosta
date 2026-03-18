@@ -59,6 +59,15 @@ pip-log.txt
 *.ipr
 out/
 
+# Obsidian
+!**/.obsidian/
+**/.obsidian/*
+!**/.obsidian/app.json
+!**/.obsidian/appearance.json
+!**/.obsidian/community-plugins.json
+!**/.obsidian/daily-notes.json
+!**/.obsidian/templates.json
+
 # Other Editors
 .sublime*
 *.swp
@@ -66,7 +75,6 @@ out/
 .spyderproject
 .spyproject
 .ropeproject
-.obsidian/
 
 # ----------------------------------------------------------------------
 # Dependency Directories (Heaviest Folders)
