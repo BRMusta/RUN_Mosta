@@ -39,6 +39,12 @@ pnpm-debug.log*
 lerna-debug.log*
 pip-log.txt
 
+# tmps dir
+tmp/
+.tmp/
+temp/
+.temp/
+
 # ----------------------------------------------------------------------
 # IDEs & Editors
 # ----------------------------------------------------------------------
@@ -51,6 +57,9 @@ pip-log.txt
 !.vscode/*.code-snippets
 .history/
 *.vsix
+
+# Zed
+.zed/
 
 # JetBrains (IntelliJ, Android Studio, PyCharm, etc)
 .idea/
@@ -75,6 +84,10 @@ out/
 .spyderproject
 .spyproject
 .ropeproject
+
+# AI and Code Assistants
+.ai/
+.claude/
 
 # ----------------------------------------------------------------------
 # Dependency Directories (Heaviest Folders)
@@ -186,7 +199,6 @@ instance/
 .webassets-cache
 .scrapy
 docs/_build/
-target/
 
 # Marimo / Jupyter
 __marimo__/
@@ -233,4 +245,6 @@ target/
 **/*.rs.bk
 *.pdb
 rust-project.json
+static/
+*.wat
 # Cargo.lock # Uncomment this line if building a library, keep tracked for binaries.
